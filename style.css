@@ -1,0 +1,53 @@
+
+/* comment */
+
+/* Id selectors - for one specific element on our page
+
+Class selectors - for multiple elements
+
+Precedence - Generally, if there is conflict between styles (styling the same aspect), id is more specific, so it will override class. 
+
+Id over Class over Element
+*/
+
+/* Elements */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 30px;
+/*   margin-top: 30px; */
+/*   padding: 100px; */
+  background-color: #ffffbd;
+}
+
+h1{
+  text-align: center;
+}
+
+img{
+  width: 600px;
+/*   rounds out picture */
+/*   border-radius: 40px; */
+  border-radius: 50%; 
+/*50% gives you circle*/
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #5bb95b;
+}
+
+/* Classes */
+.underline{
+  text-decoration: underline double green;
+}
+
+/* Ids */
+#redP{
+  color: red
+}
+
+#blueP{
+  color: blue
+}
